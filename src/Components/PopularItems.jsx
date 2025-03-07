@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/PopularItems.css";
+import "../Styles/popularItems.css";
 import MenuItem from "./MenuItem";
 
 const PopularItems = () => {
