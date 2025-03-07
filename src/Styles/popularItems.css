@@ -1,3 +1,6 @@
+.popular-items-container{
+    margin-bottom:5px;
+}
 .orders-header {
     display: flex;
     justify-content: space-between;
