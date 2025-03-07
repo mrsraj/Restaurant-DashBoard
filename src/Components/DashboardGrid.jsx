@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/DashboardGrid.css";
+import "../Styles/dashboardGrid.css";
 import StatCard from "./StatCard";
 
 const DashboardGrid = () => {
