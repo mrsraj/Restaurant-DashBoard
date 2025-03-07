@@ -1,0 +1,64 @@
+.menu_item {
+    background: rgb(227, 225, 225);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.menu_item:hover {
+    transform: translateY(-2px);
+}
+
+.menu_item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.menu_item_info {
+    padding: 20px;
+}
+
+.menu_item_info h4 {
+    color: var(--dark);
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.menu_item_info p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.menu_item_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #666;
+    font-size: 14px;
+}
+
+.offers{
+    background-color: rgb(61, 220, 237);
+    color: red;
+    position: absolute;
+    padding: 3px;
+    border-radius: 5px;
+    width: 70px;
+}
